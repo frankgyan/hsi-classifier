@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hsi-classifier"
+version = "1.0.0"
+description = "HSI 2D CNN Classifier API"
+readme = "README.md"
+requires-python = "==3.9.*"
+dependencies = [
+    "tensorflow==2.6.2",
+    "numpy==1.19.5",
+    "fastapi==0.68.2",
+    "uvicorn==0.15.0",
+    "pydantic==1.9.2",
+    "python-multipart==0.0.5",
+    "tifffile==2021.11.2",
+    "typing-extensions==4.1.1"
+]
+
+[tool.poetry]
+name = "hsi-classifier"
+version = "1.0.0"
+description = "HSI 2D CNN Classifier API"
+authors = ["Frank Gyan Okyere"]
+
+[tool.poetry.dependencies]
+python = "==3.9.*"
+tensorflow = "2.6.2"
+numpy = "1.19.5"
+fastapi = "0.68.2"
+uvicorn = "0.15.0"
+pydantic = "1.9.2"
+python-multipart = "0.0.5"
+tifffile = "2021.11.2"
+typing-extensions = "4.1.1"
